@@ -11,6 +11,9 @@
 		849EB1952809B3900013724C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EB1942809B3900013724C /* ContentView.swift */; };
 		849EB1972809B3910013724C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849EB1962809B3910013724C /* Assets.xcassets */; };
 		849EB19A2809B3910013724C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849EB1992809B3910013724C /* Preview Assets.xcassets */; };
+		849EB1A12809B3E30013724C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EB1A02809B3E30013724C /* Model.swift */; };
+		849EB1A32809B52C0013724C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EB1A22809B52C0013724C /* Colors.swift */; };
+		849EB1A52809B5980013724C /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EB1A42809B5980013724C /* Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		849EB1942809B3900013724C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		849EB1962809B3910013724C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849EB1992809B3910013724C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		849EB1A02809B3E30013724C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		849EB1A22809B52C0013724C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		849EB1A42809B5980013724C /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				849EB1922809B3900013724C /* CalculatorAppApp.swift */,
 				849EB1942809B3900013724C /* ContentView.swift */,
+				849EB1A02809B3E30013724C /* Model.swift */,
+				849EB1A22809B52C0013724C /* Colors.swift */,
+				849EB1A42809B5980013724C /* Matrix.swift */,
 				849EB1962809B3910013724C /* Assets.xcassets */,
 				849EB1982809B3910013724C /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849EB1A12809B3E30013724C /* Model.swift in Sources */,
+				849EB1A52809B5980013724C /* Matrix.swift in Sources */,
+				849EB1A32809B52C0013724C /* Colors.swift in Sources */,
 				849EB1952809B3900013724C /* ContentView.swift in Sources */,
 				849EB1932809B3900013724C /* CalculatorAppApp.swift in Sources */,
 			);
