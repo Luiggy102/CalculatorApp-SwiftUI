@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+import UIKit
 
 struct Matrix {
     static let firstSectionData: [KeyboardButton] = [
@@ -31,4 +33,14 @@ struct Matrix {
         .init(title: ",", isDoubleWidth: false, backgroundColor: customDarkGray, textColor: .white, type: .reset),
         .init(title: "=", isDoubleWidth: false, backgroundColor: customOrange, textColor: .white, type: .result),
     ]
+    static var fistSectionGrid: (CGFloat) -> [GridItem] = { width in
+        return Array(repeating: GridItem(.flexible(minimum: width), spacing: 0), count: 4)
+    }
+    static var secondSectionGrid: (CGFloat) -> [GridItem] = { width in
+        return [
+            GridItem(.flexible(minimum: width * 2), spacing: 0),
+            GridItem(.flexible(minimum: width), spacing: 0),
+            GridItem(.flexible(minimum: width), spacing: 0)
+        ]
+    }
 }

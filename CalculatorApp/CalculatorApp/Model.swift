@@ -8,19 +8,19 @@
 import Foundation
 import SwiftUI
 
-struct KeyboardButton {
+struct KeyboardButton: Hashable {
     let title: String
     let isDoubleWidth: Bool
     let backgroundColor, textColor: Color
     let type: ButtonType
 }
 
-enum ButtonType {
+enum ButtonType: Hashable {
     case number(Int)
     case result, reset
     case operation(OperationType)
 }
 
-enum OperationType {
+enum OperationType: Hashable {
     case sum, multiplication
 }
